@@ -1,6 +1,21 @@
 # KBVQA
 Knowledge-Based Visual Question Answering
 
+## Directory structure
+
+┣━━━ data
+┃      ┗━━━ images
+┃              ┗━━━ image1
+┃              ┗━━━ ...
+┣━━━ preprocessed_data
+┃      ┗━━━ vqa_data.csv   
+┗━━━ VQA_py
+       ┗━━━ main.py
+       ┗━━━ model.py
+       ┗━━━ train.py
+       ┗━━━ util.py
+       ┗━━━ focal.py
+       ┗━━━ vqa_dataset.py
 ## Train
 
 - with out Transformer Layer
