@@ -2,6 +2,7 @@
 Knowledge-Based Visual Question Answering
 
 ## Directory structure
+- 학습을 위한 디렉토리 구조는 다음과 같습니다.
 
        ┣━━━ data
        ┃      ┗━━━ images
@@ -20,11 +21,13 @@ Knowledge-Based Visual Question Answering
 ## Train
 
 - with out Transformer Layer
+- Classifier에서 트랜스포머 레이어 사용하지 않고 MLP로만 학습을 진행합니다.
 ```bash
 python main.py
 ```
 
 - Using Transformer Layer
+- Classifier에서 트랜스포머 레이어를 사용해서 학습을 진행합니다.
 ```bash
 python main.py --use_transformer_layer
 ```
